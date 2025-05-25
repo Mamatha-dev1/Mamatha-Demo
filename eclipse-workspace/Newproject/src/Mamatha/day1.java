@@ -30,10 +30,6 @@ public class day1 {
  
  
  
- 
- System.out.println("test9987");
- System.out.println("testgfjh21");
- System.out.println("teshfjht50");
 
 }
 }

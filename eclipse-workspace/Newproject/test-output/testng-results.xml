@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-13T17:44:47 IST" name="Suite" finished-at="2025-05-13T18:20:18 IST" duration-ms="2130996">
+    <groups>
+    </groups>
+    <test started-at="2025-05-13T17:44:47 IST" name="Test" finished-at="2025-05-13T18:20:18 IST" duration-ms="2130996">
+      <class name="FMClient.GlobalExceptionPage">
+        <test-method signature="testglobalexception()[pri:0, instance:FMClient.GlobalExceptionPage@5215cd9a]" started-at="2025-05-13T18:10:57 IST" name="testglobalexception" finished-at="2025-05-13T18:11:19 IST" duration-ms="21832" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testglobalexception -->
+      </class> <!-- FMClient.GlobalExceptionPage -->
+      <class name="FMClient.Newtestrulecreation">
+        <test-method signature="Testrulecreation()[pri:0, instance:FMClient.Newtestrulecreation@704b2127]" started-at="2025-05-13T17:44:48 IST" name="Testrulecreation" finished-at="2025-05-13T17:48:56 IST" duration-ms="248071" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testrulecreation -->
+      </class> <!-- FMClient.Newtestrulecreation -->
+      <class name="FMClient.Customnickname">
+        <test-method signature="NicknamePage()[pri:0, instance:FMClient.Customnickname@5c371e13]" started-at="2025-05-13T18:03:38 IST" name="NicknamePage" finished-at="2025-05-13T18:05:29 IST" duration-ms="111025" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NicknamePage -->
+      </class> <!-- FMClient.Customnickname -->
+      <class name="FMClient.Export">
+        <test-method signature="Testrulecreation()[pri:0, instance:FMClient.Export@7726e185]" started-at="2025-05-13T18:19:29 IST" name="Testrulecreation" finished-at="2025-05-13T18:20:13 IST" duration-ms="44388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testrulecreation -->
+      </class> <!-- FMClient.Export -->
+      <class name="FMClient.ClosedAlarms">
+        <test-method signature="testClosedAlarms()[pri:0, instance:FMClient.ClosedAlarms@530a8454]" started-at="2025-05-13T18:05:58 IST" name="testClosedAlarms" finished-at="2025-05-13T18:07:59 IST" duration-ms="120536" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClosedAlarms -->
+      </class> <!-- FMClient.ClosedAlarms -->
+      <class name="FMClient.Newrulecreation">
+        <test-method signature="testnewrulecreation()[pri:0, instance:FMClient.Newrulecreation@4837595f]" started-at="2025-05-13T17:49:25 IST" name="testnewrulecreation" finished-at="2025-05-13T17:51:20 IST" duration-ms="115115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testnewrulecreation -->
+      </class> <!-- FMClient.Newrulecreation -->
+      <class name="FMClient.Templaterule">
+        <test-method signature="testtemplatecreation()[pri:0, instance:FMClient.Templaterule@2bffa76d]" started-at="2025-05-13T17:51:49 IST" name="testtemplatecreation" finished-at="2025-05-13T17:53:49 IST" duration-ms="119698" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testtemplatecreation -->
+      </class> <!-- FMClient.Templaterule -->
+      <class name="FMClient.OpenAlarms">
+        <test-method signature="testOpenAlarms()[pri:0, instance:FMClient.OpenAlarms@1e34c607]" started-at="2025-05-13T18:08:28 IST" name="testOpenAlarms" finished-at="2025-05-13T18:10:27 IST" duration-ms="119296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOpenAlarms -->
+      </class> <!-- FMClient.OpenAlarms -->
+      <class name="FMClient.HotlistFromFile">
+        <test-method signature="HotlistPage()[pri:0, instance:FMClient.HotlistFromFile@3b718392]" started-at="2025-05-13T17:54:18 IST" name="HotlistPage" finished-at="2025-05-13T17:56:16 IST" duration-ms="118302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HotlistPage -->
+      </class> <!-- FMClient.HotlistFromFile -->
+      <class name="FMClient.RecordViewCDR">
+        <test-method signature="testnewrulecreation()[pri:0, instance:FMClient.RecordViewCDR@9257031]" started-at="2025-05-13T18:14:21 IST" name="testnewrulecreation" finished-at="2025-05-13T18:15:59 IST" duration-ms="98463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testnewrulecreation -->
+      </class> <!-- FMClient.RecordViewCDR -->
+      <class name="FMClient.ActiveAlarms">
+        <test-method signature="testnewrulecreation()[pri:0, instance:FMClient.ActiveAlarms@75201592]" started-at="2025-05-13T18:16:24 IST" name="testnewrulecreation" finished-at="2025-05-13T18:18:58 IST" duration-ms="154576" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testnewrulecreation -->
+      </class> <!-- FMClient.ActiveAlarms -->
+      <class name="FMClient.Usertest">
+        <test-method signature="testUserpage()[pri:0, instance:FMClient.Usertest@36b6964d]" started-at="2025-05-13T18:11:49 IST" name="testUserpage" finished-at="2025-05-13T18:12:47 IST" duration-ms="57224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserpage -->
+      </class> <!-- FMClient.Usertest -->
+      <class name="FMClient.Hotlist">
+        <test-method signature="HotlistPage()[pri:0, instance:FMClient.Hotlist@126be319]" started-at="2025-05-13T17:56:45 IST" name="HotlistPage" finished-at="2025-05-13T18:00:36 IST" duration-ms="231578" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HotlistPage -->
+      </class> <!-- FMClient.Hotlist -->
+      <class name="FMClient.StandardNickname">
+        <test-method signature="NicknamePage()[pri:0, instance:FMClient.StandardNickname@6c44052e]" started-at="2025-05-13T18:01:06 IST" name="NicknamePage" finished-at="2025-05-13T18:03:09 IST" duration-ms="122999" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NicknamePage -->
+      </class> <!-- FMClient.StandardNickname -->
+      <class name="FMClient.RecordView2Adavncedfilter">
+        <test-method signature="Recordviewtestcase()[pri:0, instance:FMClient.RecordView2Adavncedfilter@31198ceb]" started-at="2025-05-13T18:13:16 IST" name="Recordviewtestcase" finished-at="2025-05-13T18:13:50 IST" duration-ms="34197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Recordviewtestcase -->
+      </class> <!-- FMClient.RecordView2Adavncedfilter -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

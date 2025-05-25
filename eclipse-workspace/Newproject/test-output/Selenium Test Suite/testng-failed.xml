@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Selenium Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Selenium Tests(failed)">
+    <classes>
+      <class name="Mamatha.Templaterule">
+        <methods>
+          <include name="testtemplatecreation"/>
+        </methods>
+      </class> <!-- Mamatha.Templaterule -->
+      <class name="Mamatha.Newrulecreation">
+        <methods>
+          <include name="testnewrulecreation"/>
+        </methods>
+      </class> <!-- Mamatha.Newrulecreation -->
+      <class name="Mamatha.Exportrulelist">
+        <methods>
+          <include name="testexportlist"/>
+        </methods>
+      </class> <!-- Mamatha.Exportrulelist -->
+      <class name="Mamatha.Auditpage">
+        <methods>
+          <include name="testAuditPage"/>
+        </methods>
+      </class> <!-- Mamatha.Auditpage -->
+    </classes>
+  </test> <!-- Selenium Tests(failed) -->
+</suite> <!-- Failed suite [Selenium Test Suite] -->

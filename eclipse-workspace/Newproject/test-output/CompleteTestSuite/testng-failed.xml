@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CompleteTestSuite]">
+  <test thread-count="5" name="New(failed)">
+    <classes>
+      <class name="Mamatha.New">
+        <methods>
+          <include name="testUserCreation"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="testTemplateruleNavigation"/>
+        </methods>
+      </class> <!-- Mamatha.New -->
+    </classes>
+  </test> <!-- New(failed) -->
+</suite> <!-- Failed suite [CompleteTestSuite] -->

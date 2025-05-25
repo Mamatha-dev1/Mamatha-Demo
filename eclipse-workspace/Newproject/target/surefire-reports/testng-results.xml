@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-14T17:23:16 IST" name="Suite" finished-at="2025-05-14T17:24:07 IST" duration-ms="51477">
+    <groups>
+    </groups>
+    <test started-at="2025-05-14T17:23:16 IST" name="Test" finished-at="2025-05-14T17:24:07 IST" duration-ms="51477">
+      <class name="Practice.framework.Errorvalidation">
+        <test-method signature="error()[pri:0, instance:Practice.framework.Errorvalidation@402c4085]" started-at="2025-05-14T17:23:16 IST" name="error" finished-at="2025-05-14T17:23:23 IST" duration-ms="7156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- error -->
+      </class> <!-- Practice.framework.Errorvalidation -->
+      <class name="Practice.framework.Basetest">
+        <test-method signature="test(java.util.HashMap)[pri:0, instance:Practice.framework.Basetest@1caa0244]" started-at="2025-05-14T17:23:24 IST" name="test" data-provider="getdata" finished-at="2025-05-14T17:23:44 IST" duration-ms="20755" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Gowda@678, email=mamathakp2017@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="test(java.util.HashMap)[pri:0, instance:Practice.framework.Basetest@1caa0244]" started-at="2025-05-14T17:23:44 IST" name="test" data-provider="getdata" finished-at="2025-05-14T17:24:07 IST" duration-ms="22901" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Gowda@678, email=mamathakp2017@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- Practice.framework.Basetest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

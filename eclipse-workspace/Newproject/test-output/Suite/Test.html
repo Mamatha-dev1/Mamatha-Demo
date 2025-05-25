@@ -1,0 +1,155 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>15/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue May 13 17:44:47 IST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>2130 seconds (2130996 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='FMClient.Newrulecreation.testnewrulecreation()'><b>testnewrulecreation</b><br>Test class: FMClient.Newrulecreation</td>
+<td></td>
+<td>115</td>
+<td>FMClient.Newrulecreation@4837595f</td></tr>
+<tr>
+<td title='FMClient.Hotlist.HotlistPage()'><b>HotlistPage</b><br>Test class: FMClient.Hotlist</td>
+<td></td>
+<td>231</td>
+<td>FMClient.Hotlist@126be319</td></tr>
+<tr>
+<td title='FMClient.RecordViewCDR.testnewrulecreation()'><b>testnewrulecreation</b><br>Test class: FMClient.RecordViewCDR</td>
+<td></td>
+<td>98</td>
+<td>FMClient.RecordViewCDR@9257031</td></tr>
+<tr>
+<td title='FMClient.OpenAlarms.testOpenAlarms()'><b>testOpenAlarms</b><br>Test class: FMClient.OpenAlarms</td>
+<td></td>
+<td>119</td>
+<td>FMClient.OpenAlarms@1e34c607</td></tr>
+<tr>
+<td title='FMClient.ActiveAlarms.testnewrulecreation()'><b>testnewrulecreation</b><br>Test class: FMClient.ActiveAlarms</td>
+<td></td>
+<td>154</td>
+<td>FMClient.ActiveAlarms@75201592</td></tr>
+<tr>
+<td title='FMClient.GlobalExceptionPage.testglobalexception()'><b>testglobalexception</b><br>Test class: FMClient.GlobalExceptionPage</td>
+<td></td>
+<td>21</td>
+<td>FMClient.GlobalExceptionPage@5215cd9a</td></tr>
+<tr>
+<td title='FMClient.Templaterule.testtemplatecreation()'><b>testtemplatecreation</b><br>Test class: FMClient.Templaterule</td>
+<td></td>
+<td>119</td>
+<td>FMClient.Templaterule@2bffa76d</td></tr>
+<tr>
+<td title='FMClient.StandardNickname.NicknamePage()'><b>NicknamePage</b><br>Test class: FMClient.StandardNickname</td>
+<td></td>
+<td>122</td>
+<td>FMClient.StandardNickname@6c44052e</td></tr>
+<tr>
+<td title='FMClient.RecordView2Adavncedfilter.Recordviewtestcase()'><b>Recordviewtestcase</b><br>Test class: FMClient.RecordView2Adavncedfilter</td>
+<td></td>
+<td>34</td>
+<td>FMClient.RecordView2Adavncedfilter@31198ceb</td></tr>
+<tr>
+<td title='FMClient.Customnickname.NicknamePage()'><b>NicknamePage</b><br>Test class: FMClient.Customnickname</td>
+<td></td>
+<td>111</td>
+<td>FMClient.Customnickname@5c371e13</td></tr>
+<tr>
+<td title='FMClient.HotlistFromFile.HotlistPage()'><b>HotlistPage</b><br>Test class: FMClient.HotlistFromFile</td>
+<td></td>
+<td>118</td>
+<td>FMClient.HotlistFromFile@3b718392</td></tr>
+<tr>
+<td title='FMClient.Export.Testrulecreation()'><b>Testrulecreation</b><br>Test class: FMClient.Export</td>
+<td></td>
+<td>44</td>
+<td>FMClient.Export@7726e185</td></tr>
+<tr>
+<td title='FMClient.ClosedAlarms.testClosedAlarms()'><b>testClosedAlarms</b><br>Test class: FMClient.ClosedAlarms</td>
+<td></td>
+<td>120</td>
+<td>FMClient.ClosedAlarms@530a8454</td></tr>
+<tr>
+<td title='FMClient.Newtestrulecreation.Testrulecreation()'><b>Testrulecreation</b><br>Test class: FMClient.Newtestrulecreation</td>
+<td></td>
+<td>248</td>
+<td>FMClient.Newtestrulecreation@704b2127</td></tr>
+<tr>
+<td title='FMClient.Usertest.testUserpage()'><b>testUserpage</b><br>Test class: FMClient.Usertest</td>
+<td></td>
+<td>57</td>
+<td>FMClient.Usertest@36b6964d</td></tr>
+</table><p>
+</body>
+</html>

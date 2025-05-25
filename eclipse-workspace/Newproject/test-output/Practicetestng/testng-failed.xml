@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Practicetestng]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="carloan(failed)">
+    <classes>
+      <class name="Practice.TestNGpractice1">
+        <methods>
+          <include name="getdata"/>
+          <include name="getdata10"/>
+        </methods>
+      </class> <!-- Practice.TestNGpractice1 -->
+    </classes>
+  </test> <!-- carloan(failed) -->
+</suite> <!-- Failed suite [Practicetestng] -->

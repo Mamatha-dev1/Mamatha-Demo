@@ -26,9 +26,7 @@ public class day1 {
  System.out.println("test9");
  System.out.println("test21");
  System.out.println("test50");
- System.out.println("dev-mamatha");
- System.out.println("dev-mamatha");
- System.out.println("dev-mamatha");
+ 
  
  
  

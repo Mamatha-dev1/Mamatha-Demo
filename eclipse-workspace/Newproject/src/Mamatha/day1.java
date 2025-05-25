@@ -21,6 +21,11 @@ public class day1 {
  System.out.println("test5");
  System.out.println("test2");
  System.out.println("test5");
+ 
+ 
+ System.out.println("test9");
+ System.out.println("test21");
+ System.out.println("test50");
 
 }
 }

@@ -23,11 +23,7 @@ public class day1 {
  System.out.println("test5");
  
  
- System.out.println("master");
- System.out.println("master");
- System.out.println("master");
- System.out.println("master");
-}
+	}
 }
 
 

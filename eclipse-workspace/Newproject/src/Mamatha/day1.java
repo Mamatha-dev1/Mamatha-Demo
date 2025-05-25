@@ -26,6 +26,14 @@ public class day1 {
  System.out.println("test9");
  System.out.println("test21");
  System.out.println("test50");
+ 
+ 
+ 
+ 
+ 
+ System.out.println("test9987");
+ System.out.println("testgfjh21");
+ System.out.println("teshfjht50");
 
 }
 }
